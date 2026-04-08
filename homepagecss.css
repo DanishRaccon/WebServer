@@ -6,9 +6,9 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 80px;
-  padding: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 20vw));
+  gap: 4vw;
+  padding: 4vw;
 }
 
 .box {
@@ -20,7 +20,7 @@ body {
   background-color: #ffb994;
   align-items: center;
   justify-content: center;
-  max-height: 70%; /* Leaves room for text at the bottom */
+  max-height: 70%;
   object-fit: contain;
   display: block;
 }
