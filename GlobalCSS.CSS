@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+}
+.home-btn {
+  background-color: var(--senior-orange);
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+}
+:root {
+  --senior-orange: #ff733c;
+}
