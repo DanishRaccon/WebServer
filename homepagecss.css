@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ff733c;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 80px;
+  padding: 50px;
+}
+
+.box {
+  aspect-ratio: 1/1;
+  border: 2px solid #ffb994;
+  padding: 10px 10px;
+  border-radius: 12px;
+  transition: 0.2s;
+  background-color: #ffb994;
+  align-items: center;
+  justify-content: center;
+  max-height: 70%; /* Leaves room for text at the bottom */
+  object-fit: contain;
+  display: block;
+}
+
+.box:hover {
+  background-color: #ff733c;
+}
+
+.box img {
+  aspect-ratio: 1/1;
+  height: 100%;
+}
